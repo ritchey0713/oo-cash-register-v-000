@@ -16,7 +16,7 @@ end
   
   def apply_discount
    discount_amount = @total - @discount*10
-   binding.pry
+   
    
     
   end
