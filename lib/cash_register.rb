@@ -15,8 +15,7 @@ class CashRegister
 end
   
   def apply_discount
-   discount_amount = @total - @discount*10
-   discount_amount
+   cart_total = @total
    
     
   end
