@@ -16,6 +16,9 @@ end
   
   def apply_discount
    cart_total = @total
+   discount_amount = @discount*10
+   new_total = cart_total - discount_amount
+   new_total
    
     
   end
